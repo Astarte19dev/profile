@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+body {
+  background-color: #F5EFEA;
+  font-family: Source Sans Pro 200;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+h1{
+  color: #242F4F;
+  font-family: Source Sans Pro 600;
+  font-size: 24px;
+  line-height: 20px;
+}
+
+h2 {
+  color: #242F4F;
+  font-family: Source Sans Pro 400;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+a {
+  color: #242F4F;
+  text-decoration: none;
+}
+a:hover {
+  color: #FEE93B;
+}
+
+.card {
+  background: #81BCAD;
+  border: solid;
+  border-radius: 5px;
+  box-shadow: 2px 2px 6px #FEE93B;
+  text-align: center;
+  margin: 8px;
+  padding: 24px;
+}
+
+#arcane {
+  border-radius: 350px;
+  width: 150px;
+  height: 150px;
+  padding-left: 0;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+  margin: 0;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+.fa-brands{
+  color: #FEE93B;
+}
